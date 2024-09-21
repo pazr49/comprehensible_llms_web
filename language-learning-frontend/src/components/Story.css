@@ -1,0 +1,38 @@
+/* src/components/Story.css */
+
+.story-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .story-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .chapter {
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .feedback-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .feedback-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+  }
